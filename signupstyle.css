@@ -17,7 +17,7 @@ body{
     font-size: 25px;
     margin-bottom: 32px;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 7rem;
+    margin-top: 4rem;
 }
 
 .Note {
@@ -48,7 +48,7 @@ input:focus{
 
 .emailandtext label{
     position: absolute;
-    top:272px;
+    top: 225px;
     left: 38.6rem;
     transform: translateY(-50%);
     pointer-events: none;
@@ -64,6 +64,59 @@ input:focus ~ label{
     color: #1DA1F2;
     
 }
+.password {
+    margin: 25px;
+    padding: relative;
+    height: 50%;
+    width: 100%;
+}
+.password input{
+    height: 39px;
+    width: 19rem;
+    border: 1px solid plum;
+    padding-left: 15px;
+    outline: none;
+    transition: .4s;
+    margin-right: 49px;
+    border-radius: 4px;
+}
+.password label{
+    position: absolute;
+    top: 290px;
+    left: 38.6rem;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: gray;
+    font-size: 12px;
+    transition: .4s;
+}
+.Confirmpassword{
+    margin: 25px;
+    padding: relative;
+    height: 50%;
+    width: 100%;
+}
+.Confirmpassword input{
+    height: 39px;
+    width: 19rem;
+    border: 1px solid plum;
+    padding-left: 15px;
+    outline: none;
+    transition: .4s;
+    margin-right: 49px;
+    border-radius: 4px;
+}
+.Confirmpassword label{
+    position: absolute;
+    top: 356px;
+    left: 38.6rem;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: gray;
+    font-size: 12px;
+    transition: .4s;
+}
+
 .btn1{
     width: 20rem;
     height: 36px;
@@ -137,7 +190,7 @@ p.signp {
     justify-content: center;
     list-style: none;
     gap: 10px;
-    margin-top: 7rem;
+    margin-top: 5rem;
 }
 .Privacy a {
     text-decoration: none;

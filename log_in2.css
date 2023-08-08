@@ -58,6 +58,34 @@ input:focus ~ label{
     color: #1DA1F2;
     
 }
+
+.password {
+    margin: 25px;
+    padding: relative;
+    height: 50%;
+    width: 100%;
+}
+.password input{
+    height: 39px;
+    width: 19rem;
+    border: 1px solid plum;
+    padding-left: 15px;
+    outline: none;
+    transition: .4s;
+    margin-right: 49px;
+    border-radius: 4px;
+}
+.password label{
+    position: absolute;
+    top: 273px;
+    left: 38.6rem;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: gray;
+    font-size: 12px;
+    transition: .4s;
+}
+
 .btn1{
     width: 20rem;
     height: 36px;
